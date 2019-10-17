@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0C26C9"
+        android:text="Button"
+        android:textColor="#FFEB3B" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="471dp"
+        android:background="#DDB007"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="#3F51B5"
+        android:textSize="250sp" />
+
+    <Button
+        android:id="@+id/botonsito"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0C26C9"
+        android:onClick="addNumber"
+        android:text="Contador"
+        android:textColor="#FFEB3B" />
+</LinearLayout>
